@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 20%;
+    min-width: 10rem;
+}
+
+h3 {
+    width: 100%;
+    background: lightpink;
+}
+
+.beer-card {
+    width: 20%;
+    min-width: 10rem;
+    background: lightseagreen;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+}
+
+#beer-container {
+    width: calc(100% - 4rem);
+    border: 1px solid black;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
